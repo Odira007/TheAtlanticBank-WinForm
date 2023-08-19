@@ -3,9 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.33920.266
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheAtlanticBank-WinForm", "TheAtlanticBank-WinForm\TheAtlanticBank-WinForm.csproj", "{B63FE29B-DAFB-4185-8598-280798F4FC58}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheAtlanticBank", "TheAtlanticBank-WinForm\TheAtlanticBank.csproj", "{B63FE29B-DAFB-4185-8598-280798F4FC58}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheAtlanticBank.Core", "TheAtlanticBank.Core\TheAtlanticBank.Core.csproj", "{01B1BF96-64F2-4ED7-BDCC-C9F20B2D0939}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheAtlanticBank.Helpers", "TheAtlanticBank.Helpers\TheAtlanticBank.Helpers.csproj", "{AC857705-C498-4F55-955D-044A0C4170B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheAtlanticBank.Common", "TheAtlanticBank.Common\TheAtlanticBank.Common.csproj", "{3EACA096-3FC9-45A5-B6F2-AB9702AF4D8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheAtlanticBank.Entities", "TheAtlanticBank.Entities\TheAtlanticBank.Entities.csproj", "{DC00D2D2-3C9E-400E-BFA1-13CFFF576B47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheAtlanticBank.Data", "TheAtlanticBank.Data\TheAtlanticBank.Data.csproj", "{2618D39D-8838-4FA9-9792-75583CA49FF5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +29,22 @@ Global
 		{01B1BF96-64F2-4ED7-BDCC-C9F20B2D0939}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01B1BF96-64F2-4ED7-BDCC-C9F20B2D0939}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01B1BF96-64F2-4ED7-BDCC-C9F20B2D0939}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC857705-C498-4F55-955D-044A0C4170B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC857705-C498-4F55-955D-044A0C4170B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC857705-C498-4F55-955D-044A0C4170B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC857705-C498-4F55-955D-044A0C4170B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EACA096-3FC9-45A5-B6F2-AB9702AF4D8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EACA096-3FC9-45A5-B6F2-AB9702AF4D8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EACA096-3FC9-45A5-B6F2-AB9702AF4D8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EACA096-3FC9-45A5-B6F2-AB9702AF4D8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC00D2D2-3C9E-400E-BFA1-13CFFF576B47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC00D2D2-3C9E-400E-BFA1-13CFFF576B47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC00D2D2-3C9E-400E-BFA1-13CFFF576B47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC00D2D2-3C9E-400E-BFA1-13CFFF576B47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2618D39D-8838-4FA9-9792-75583CA49FF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2618D39D-8838-4FA9-9792-75583CA49FF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2618D39D-8838-4FA9-9792-75583CA49FF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2618D39D-8838-4FA9-9792-75583CA49FF5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

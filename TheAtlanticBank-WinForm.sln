@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33920.266
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheAtlanticBank-WinForm", "TheAtlanticBank-WinForm\TheAtlanticBank-WinForm.csproj", "{B63FE29B-DAFB-4185-8598-280798F4FC58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheAtlanticBank.Core", "TheAtlanticBank.Core\TheAtlanticBank.Core.csproj", "{01B1BF96-64F2-4ED7-BDCC-C9F20B2D0939}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B63FE29B-DAFB-4185-8598-280798F4FC58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B63FE29B-DAFB-4185-8598-280798F4FC58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B63FE29B-DAFB-4185-8598-280798F4FC58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B63FE29B-DAFB-4185-8598-280798F4FC58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01B1BF96-64F2-4ED7-BDCC-C9F20B2D0939}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01B1BF96-64F2-4ED7-BDCC-C9F20B2D0939}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01B1BF96-64F2-4ED7-BDCC-C9F20B2D0939}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01B1BF96-64F2-4ED7-BDCC-C9F20B2D0939}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BE3E746F-F107-4DFC-BBDB-52BC090D1BA7}
+	EndGlobalSection
+EndGlobal

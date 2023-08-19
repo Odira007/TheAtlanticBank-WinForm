@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using TheAtlanticBank.Common;
+using TheAtlanticBank.Core.Authentication;
 using TheAtlanticBank.Core.Interfaces;
 using TheAtlanticBank.Data;
 using TheAtlanticBank.Entities;

@@ -3,7 +3,7 @@ using System.Linq;
 using TheAtlanticBank.Entities;
 using TheAtlanticBank.Helpers;
 
-namespace TheAtlanticBank.Core
+namespace TheAtlanticBank.Core.Authentication
 {
     public class Authenticate
     {

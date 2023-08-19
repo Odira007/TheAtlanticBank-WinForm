@@ -1,11 +1,48 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "TheAtlanticBank.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/TheAtlanticBank.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TheAtlanticBank.Common.dll": {}
+        }
+      },
+      "TheAtlanticBank.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "TheAtlanticBank.Common": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TheAtlanticBank.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TheAtlanticBank.Entities.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "TheAtlanticBank.Common/1.0.0": {
+      "type": "project",
+      "path": "../TheAtlanticBank.Common/TheAtlanticBank.Common.csproj",
+      "msbuildProject": "../TheAtlanticBank.Common/TheAtlanticBank.Common.csproj"
+    },
+    "TheAtlanticBank.Entities/1.0.0": {
+      "type": "project",
+      "path": "../TheAtlanticBank.Entities/TheAtlanticBank.Entities.csproj",
+      "msbuildProject": "../TheAtlanticBank.Entities/TheAtlanticBank.Entities.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "TheAtlanticBank.Entities >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\ODIRA.DESKTOP-II4QM4T\\.nuget\\packages\\": {}
@@ -33,7 +70,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\ODIRA.DESKTOP-II4QM4T\\source\\repos\\TheAtlanticBank-WinForm\\TheAtlanticBank.Entities\\TheAtlanticBank.Entities.csproj": {
+              "projectPath": "C:\\Users\\ODIRA.DESKTOP-II4QM4T\\source\\repos\\TheAtlanticBank-WinForm\\TheAtlanticBank.Entities\\TheAtlanticBank.Entities.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

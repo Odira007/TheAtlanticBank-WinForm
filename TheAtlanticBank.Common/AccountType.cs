@@ -2,7 +2,9 @@
 
 namespace TheAtlanticBank.Common
 {
-    public class Class1
+    public enum AccountType
     {
+        Savings,
+        Current
     }
 }
